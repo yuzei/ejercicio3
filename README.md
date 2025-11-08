@@ -43,3 +43,7 @@ Despues de haber sido generado la plantilla se ejecuto:
 npm install framer-motion lucide-react
 
 para trabajar con 2 librerías que se usaran para las animaciones y los iconos
+-----------------------------------------------------------------------------------
+modificamos el page.tsx para mostrar el diseño de la pagina presentado en el ejercicio 3 
+
+En este primer modelo todo el trabajo está dentro del page.tsx
