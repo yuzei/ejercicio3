@@ -135,5 +135,12 @@ README.md (donde estas leyendo esto)
 ```
 
 -----------------------------------------------------------------------------------------
+
+Imagenes del codigo corriendo:
+-------------
+<img width="1577" height="949" alt="imagen" src="https://github.com/user-attachments/assets/a75dd295-e815-4b25-9f23-e0adf30b498e" />
+<img width="475" height="543" alt="imagen" src="https://github.com/user-attachments/assets/4258d666-0035-496e-bd48-36d2345f1d0f" />
+
+-----------------------------------------------------------------------------------------
 Proyecto desarrollado por Yuzei(Matías García) para fines de aprendizaje y demostración.
 Basado en tecnologías de código abierto.
