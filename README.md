@@ -153,7 +153,22 @@ Imagenes del codigo corriendo:
 <img width="475" height="543" alt="imagen" src="https://github.com/user-attachments/assets/4258d666-0035-496e-bd48-36d2345f1d0f" />
 <img width="393" height="403" alt="imagen" src="https://github.com/user-attachments/assets/b2496d04-dd70-43b2-ab97-7bda3265a067" />
 
+----------------------------------------------------------------------------------------
 
+Para inicializar el proyecto necesitas realizar:
+
+```
+cd edge-signal-chatbot
+npm run build
+npm start
+
+```
+o puedes hacer lo siguiente no deseas compilar el proyecto
+
+```
+cd edge-signal-chatbot
+npm run dev
+```
 -----------------------------------------------------------------------------------------
 Proyecto desarrollado por Yuzei(Matías García) para fines de aprendizaje y demostración.
 Basado en tecnologías de código abierto.
