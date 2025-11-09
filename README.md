@@ -103,7 +103,7 @@ Este tsx realiza:
 -----------------------------------------------------------------------------------------
 Estructura:
 ---------
-
+'''
 edge-signal-chatbot/
 │
 ├── .next/
@@ -131,6 +131,7 @@ edge-signal-chatbot/
 ├── .env.local
 └── next.config.ts
 README.md (donde estas leyendo esto)
+'''
 
 -----------------------------------------------------------------------------------------
 Proyecto desarrollado por Yuzei(Matías García) para fines de aprendizaje y demostración.
