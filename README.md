@@ -58,6 +58,7 @@ Ahora en el modelo 2 lo haremos modular
 dentro de la carpeta "app" generaremos la carpeta "components" en la cual contendra 3 archivos .tsx que se llamarán "ChatBubble", "Footer" y "Headder" y una carpeta llamada "hooks" en la cual contendra el archivo .tsx nombrado "useChat" 
 
 Ahora explicare en que sirven los archivos:
+
 ¬ ChatBubble.tsx
 -------------------
 Este tsx realiza:
@@ -103,7 +104,7 @@ Este tsx realiza:
 -----------------------------------------------------------------------------------------
 Estructura:
 ---------
-'''
+```
 edge-signal-chatbot/
 │
 ├── .next/
@@ -131,7 +132,7 @@ edge-signal-chatbot/
 ├── .env.local
 └── next.config.ts
 README.md (donde estas leyendo esto)
-'''
+```
 
 -----------------------------------------------------------------------------------------
 Proyecto desarrollado por Yuzei(Matías García) para fines de aprendizaje y demostración.
