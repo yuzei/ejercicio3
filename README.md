@@ -101,10 +101,15 @@ Este tsx realiza:
 ¬ Cosas que se entregan en este diseño:
 ---------------------------------------
 ° Burbuja flotante con animaciones.
+
 ° Persistencia temporal del estado del chat.
+
 ° Preguntas sugeridas.
+
 ° Scroll automático a los mensajes más recientes.
+
 ° Respuesta simulada (mock) con retardo.
+
 ° Un hook funcional.
 
 -----------------------------------------------------------------------------------------
