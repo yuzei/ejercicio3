@@ -1,5 +1,5 @@
 # ejercicio3
-Este proyecto implementa un chatbot interactivo con interfaz flotante (tipo burbuja) desarrollado en Next.js con TypeScript, utilizando TailwindCSS para el diseño, Framer Motion para animaciones, y Lucide React para íconos.
+Este proyecto funcional y ejecutable, implementa un chatbot interactivo con interfaz flotante (tipo burbuja) desarrollado en Next.js con TypeScript, utilizando TailwindCSS para el diseño, Framer Motion para animaciones, y Lucide React para íconos.
 El bot permite al usuario interactuar con respuestas simuladas
 
 para la instalacion se utilizo el comando:
@@ -121,17 +121,17 @@ edge-signal-chatbot/
 ├── .next/
 ├── app/
 │   ├── components/
-│   │   ├── ChatBubble.tsx
-|   |   ├── Footer.tsx
-│   │   └── Header.tsx
+│   │   ├── ChatBubble.tsx # Botón flotante + ventana de chat + render del chat con lógica de conversación
+|   |   ├── Footer.tsx # Render pie de página
+│   │   └── Header.tsx # Render cabezera de página
 │   ├── hooks/
-│   │   └── useChat.tsx
+│   │   └── useChat.tsx # Hook para manejar mensajes (simulando API)
 |   ├──api/
 |   |   └── chat/
-|   |       └── route.ts
-│   ├── globals.css
-|   ├── layout.tsx
-│   └── page.tsx
+|   |       └── route.ts # (opcional) Endpoint para conectar con OpenAI
+│   ├── globals.css # Estilos globales Tailwind
+|   ├── layout.tsx # Dispocion de componentes compartidos
+│   └── page.tsx # Página principal
 |
 ├── node_modules/
 ├── public/
