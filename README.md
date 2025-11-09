@@ -4,7 +4,9 @@ El bot permite al usuario interactuar con respuestas simuladas
 
 para la instalacion se utilizo el comando:
 
+```
 npx create-next-app@latest edge-signal-chatbot --typescript --use-npm
+```
 
 esto genera una plantilla con el nombre edge-signal-chatbot
 al comenzar la creacion de la plantilla hará las sgtes preguntas.
@@ -49,7 +51,9 @@ La opción tomada fue No, Next.js ya crea por defecto el alias @/*, que apunta a
 
 Despues de haber sido generado la plantilla se ejecuto:
 
+```
 npm install framer-motion lucide-react
+```
 
 para trabajar con 2 librerías que se usaran para las animaciones y los iconos
 
@@ -73,7 +77,9 @@ Este tsx realiza:
 °    Renderiza el chat
 
 °   Transforma al chatbot en un componente independiente con props por ejemplo:
+```
     <ChatWindow open={open} toggleOpen={toggleOpen} />
+```
 
 ¬ useChat.tsx
 ---------------
