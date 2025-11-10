@@ -30,12 +30,12 @@ console.log("Middleware ejecutado");
 este codigo bloquea la cadena y quedaria sin poder avanzar
 
 ###Solución:
-```
+
 app.use((req,res,next) => {  
   console.log("Middleware ejecutado");  
   <ins>next();</ins>  
 }); 
-```
+
 
 -------------------------------------------------------------------------------
 
@@ -43,13 +43,13 @@ app.use((req,res,next) => {
 -------------
 
 se le asigna a usuarios todo el req en de usar req.body
-
+```
 app.post("/usuarios",(req,res) => {  
 	const usuario = req;   
 	usuarios.push(usuario);   
 	res.send("Usuario agregado");   
 }); 
-
+```
 ###Solución:
 
 app.post("/usuarios",(req,res) => { 
@@ -74,8 +74,9 @@ const app = express();
 ---------------------
 
 Se imprime el mensaje pero la app realmente no inicializa
+```
 console.log("servidor corriendo en puerto 3000");
-
+```
 ###Solución:
 
 <ins>app.listen(3000, () => {</ins>
