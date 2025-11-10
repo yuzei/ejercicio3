@@ -33,7 +33,7 @@ este codigo bloquea la cadena y quedaria sin poder avanzar
 
 app.use((req,res,next) => { 
   console.log("Middleware ejecutado"); 
-  next();
+  <ins>next();</ins>
 }); 
 
 
@@ -45,15 +45,39 @@ app.use((req,res,next) => {
 se le asigna a usuarios todo el req en de usar req.body
 
 app.post("/usuarios",(req,res) => {   
-	<ins> const usuario = req;	</ins>   
-usuarios.push(usuario);   
-res.send("Usuario agregado");   
+	const usuario = req;   
+	usuarios.push(usuario);   
+	res.send("Usuario agregado");   
 }); 
 
 ###Solución:
 
 app.post("/usuarios",(req,res) => { 
-const usuario = req.body; 
-usuarios.push(usuario); 
-res.send("Usuario agregado"); 
+	<ins>const usuario = req.body;</ins> 
+	usuarios.push(usuario); 
+	res.send("Usuario agregado"); 
 }); 
+
+--------------------------------------------------------------------------------
+
+##Error 3: usuarios no está definido/creado
+---------------
+###solución:
+const express = require("express");   
+const app = express();  
+
+<ins>const usuarios = [];</ins>
+
+--------------------------------------------------------------------
+
+##Error 4: el servidor no está escuchando
+---------------------
+
+Se imprime el mensaje pero la app realmente no inicializa
+console.log("servidor corriendo en puerto 3000");
+
+###Solución:
+
+<ins>app.listen(3000, () => {</ins>
+  console.log("servidor corriendo en puerto 3000");
+<ins>});</ins>
