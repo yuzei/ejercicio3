@@ -173,6 +173,7 @@ export default Hijo;
 ```
 -----------------------------------------------------------------
 #5 ¿Qué ocurrirá cuando se haga clic en el botón del hijo?
+
 A.  En pantalla seguirá mostrando "Hola".
 
 B.  setMensaje no existe en el hijo y generará un error al hacer clic.
