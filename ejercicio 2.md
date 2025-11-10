@@ -34,6 +34,7 @@ export default App;
 
 -------------------------------------------------------------
 #1 Marque la(s) respuesta(s) correcta(s):
+
 A. El componente Welcome se está importando y usando correctamente dentro de App.
 
 B. Si Welcome.js no tuviera export default, el import fallaría.
@@ -45,6 +46,7 @@ D. {name} dentro del JSX imprime el valor de la prop name.
 ------------------------------------------------------------
 
 #2 Marque la(s) frase(s) verdadera(s):
+
 B. El archivo index.html contiene normalmente un <div id="root">, donde React “monta” la app.
 
 D. React actualiza solo las partes del DOM que cambian, gracias al Virtual DOM.
