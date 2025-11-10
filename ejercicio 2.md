@@ -47,7 +47,7 @@ D. {name} dentro del JSX imprime el valor de la prop name.
 
 #2 Marque la(s) frase(s) verdadera(s):
 
-B. El archivo index.html contiene normalmente un <div id="root">, donde React “monta” la app.
+B. El archivo index.html contiene normalmente un ```<div id="root">,``` donde React “monta” la app.
 
 D. React actualiza solo las partes del DOM que cambian, gracias al Virtual DOM.
 
