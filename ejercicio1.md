@@ -22,20 +22,20 @@ console.log("servidor corriendo en puerto 3000");
 
 ##Error 1: no existencia de next();
 -------------
-
-app.use((req,res) => {   
-console.log("Middleware ejecutado");   
+```
+app.use((req,res) => {  
+console.log("Middleware ejecutado");  
 }); 
-
+```
 este codigo bloquea la cadena y quedaria sin poder avanzar
 
 ###Solución:
-
-app.use((req,res,next) => { 
-  console.log("Middleware ejecutado"); 
-  <ins>next();</ins>
+```
+app.use((req,res,next) => {  
+  console.log("Middleware ejecutado");  
+  <ins>next();</ins>  
 }); 
-
+```
 
 -------------------------------------------------------------------------------
 
@@ -44,7 +44,7 @@ app.use((req,res,next) => {
 
 se le asigna a usuarios todo el req en de usar req.body
 
-app.post("/usuarios",(req,res) => {   
+app.post("/usuarios",(req,res) => {  
 	const usuario = req;   
 	usuarios.push(usuario);   
 	res.send("Usuario agregado");   
